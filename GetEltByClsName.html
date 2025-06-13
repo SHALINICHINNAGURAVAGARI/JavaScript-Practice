@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div>
+        <h1 class="message">First Heading</h1>
+        <h1 class="message">Second Heading</h1>
+    </div>
+    <div id="container">
+        <h1 class="message">Third Heading</h1>
+        <h1 class="message">Fourth Heading</h1>
+        <h1 class="message">Fifth Heading</h1>
+        <h1 class="message">Sixth Heading</h1>
+    </div>
+<script>
+    let cont=document.getElementById("container")
+    let msg=cont.getElementsByClassName("message");
+    console.log(msg);
+</script>
+</body>
+</html>
