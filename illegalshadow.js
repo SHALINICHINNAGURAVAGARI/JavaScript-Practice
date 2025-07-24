@@ -12,15 +12,16 @@
 
 
 //No shadowing is possible
-// let a=20;
+// let a =1;
 // {
-//     var a=20;//Should not cross the boundary of the scope
+//      var a=20;//Should not cross the boundary of the scope
 // }//var is a function scope
+
 
 //Yes shadowing is possible
 // let a=20;
 // function c(){
-//     var a=20;
+//     var a=200;
 // }
 
 //Yes shadowing is possible

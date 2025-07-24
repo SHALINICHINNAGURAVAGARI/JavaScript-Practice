@@ -1,30 +1,30 @@
 //Example 1:
-// function z(){
-//     var a=7;
-//     function y(){
-//        console.log(a);
-//     }
-//     a=100;
-//     return y;
-//}
-// let z=x();
-// console.log(z);
-// //.......
-// z();
-
-
-function z(){
-    var b=900;
-    function x(){
-        var a=7;
-        function y(){
-            console.log(a,b);
-        }
-        y();
+function x(){
+    var a=7;
+    function y(){
+       console.log(a);
     }
-    x();
+    a=100;
+    return y;
 }
+let z=x();
+console.log(z);
+//.......
 z();
+
+
+// function z(){
+//     var b=900;
+//     function x(){
+//         var a=7;
+//         function y(){
+//             console.log(a,b);
+//         }
+//         y();
+//     }
+//     x();
+// }
+// z();
 
 //Uses of closures:
 // -Module Design CanvasPattern

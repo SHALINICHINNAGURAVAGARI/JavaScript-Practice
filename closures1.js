@@ -9,7 +9,7 @@
 // }
 // x();
 
-
+//Functions to a variable
 // function x(){
 //     var a=function y(){
 //         console.log(a);
@@ -20,7 +20,7 @@
 // x();
 
 
-
+//You can Pass the function inside a funtion
 // function x(){
 //     var a=7;
     
@@ -30,6 +30,7 @@
 //         console.log(a);
 //     });
 
+//Return the function Y instead of calling it
 // function x(){
 //     var a=7;
 //     function y(){
@@ -48,7 +49,7 @@ function x(){
 }
 let z=x();//whatever is returned is then collected here
 console.log(z);//printed
-//..........1000 lines after if i invokea function
+//..........1000 lines after if i invoke a function
 z();
 //when u execute z somewhere else in your program it still remembers the ref to a and try to find value of a
 
