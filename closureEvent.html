@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 id="heading">JavaScript is Most Popular Language in the World</h1>
+    <button id="clickMe">Click Me</button>
+    <script>
+    function attachEventListener(){
+    let count=0;
+    document.getElementById("clickMe").addEventListener("click",function x(){
+    console.log("ButtonClicked",++count);
+    });
+}
+attachEventListener();
+    </script>
+</body>
+</html>
